@@ -1,0 +1,29 @@
+.title-container .h1 {
+    position: absolute;
+    width: 372px;
+    height: 20px;
+    left: 28px;
+    top: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #000000;
+}
+.title-container .div {
+position: absolute;
+width: 264px;
+height: 46px;
+left: 456px;
+top: 52px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;}

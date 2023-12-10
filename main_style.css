@@ -1,29 +1,24 @@
-.title-container .h1 {
-    position: absolute;
-    width: 372px;
-    height: 20px;
-    left: 28px;
-    top: 20px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
-
-    color: #000000;
+.title-container{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 0%;
+    padding-top:0%;
 }
-.title-container .div {
-position: absolute;
-width: 264px;
-height: 46px;
-left: 456px;
-top: 52px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-
-color: #000000;}
+.main_text{
+    display: block;
+    margin-top: 0%;
+    padding-top:0%;
+}
+.main{
+    text-align: left;
+    width: 100%;
+    margin-top: 0%;
+    padding-top:0%;
+    background-color: #bf6363;
+}
+.main_text2{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 0%;
+    padding-top:0%;
+}

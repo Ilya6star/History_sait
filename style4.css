@@ -4,8 +4,13 @@ body{
 h1{
     text-align: center;
 }
-img{
-    width: 500px;
+.pictures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pictures img{  
+    width: 400px;
     height:450px ;
 
 }

@@ -1,0 +1,61 @@
+#particles-js {
+    background: cornflowerblue;
+    width: 100px;
+    height: 100px;
+}
+.title-container{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 0%;
+    padding-top:0%;
+}
+.main_text{
+    display: block;
+    margin-top: 0%;
+    padding-top:0%;
+}
+.main{
+    text-align: left;
+    width: 100%;
+    margin-top: 0%;
+    padding-top:0%;
+    background-color: #bf6363;
+}
+.main_text2{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 0%;
+    padding-top:0%;
+}
+.pic{
+    filter: blur(5px);
+    max-width: 100%;
+    max-height: 100%;
+}
+.star{
+    color: red;
+}
+.follow-cursor {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #0d6efd;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-50%); 
+    position: absolute; 
+    pointer-events: none; 
+    transition: width 0.64s, height 0.64s, border-radius 0.64s, background 0.64s;
+}
+.follow-cursor_active {
+    height: 128px;
+    width: 128px;
+    border-width: 2px;
+    background: rgba(13,110,253,0.32);
+}  
+
+@media (max-width: 991.98px) {
+    .follow-cursor {
+      display: none;
+    }
+  }
+  
